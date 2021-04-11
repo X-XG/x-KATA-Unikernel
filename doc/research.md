@@ -42,7 +42,7 @@ Firecracker使用rust语言实现，基于rust-vmm开源项目。而gVisor使用
 
 Docker 的架构大体如下，由 Linux Kernel、Namespace/Cgroups/Aufs、Seccomp-bpf、Libs、Language VM、User Code、Container(Docker) engine 这几个部件组成。
 
-[![img](https://camo.githubusercontent.com/19348b823404946ddae31d8f92e1dce3862f790a775ee19774d242a1a35ef0cd/68747470733a2f2f706963342e7a68696d672e636f6d2f76322d63623661353336666130613063393264353365376139363164353338376235625f622e6a7067)](https://camo.githubusercontent.com/19348b823404946ddae31d8f92e1dce3862f790a775ee19774d242a1a35ef0cd/68747470733a2f2f706963342e7a68696d672e636f6d2f76322d63623661353336666130613063393264353365376139363164353338376235625f622e6a7067)
+![](files/1.png)
 
 从攻击者的角度，这个架构比较复杂，因而暴露出的漏洞也比较多，攻击者既可以利用 Linux 内核进行攻击，又可以通过利用 Docker 容器自身的漏洞进行攻击，很容易实现容器逃逸。
 
@@ -72,8 +72,6 @@ Kata containers其实跟RunC类似，也是一个符合OCI运行时规范的一�
 
 详细情况参考GitHub上[KATA](https://github.com/kata-containers/kata-containers)介绍。
 
-基本框架如图
-![image](https://github.com/zongziren/OSH21_ZSR/blob/master/kata.png?raw=true)
 
 ### gVisor
 
@@ -154,7 +152,7 @@ Unikernel快得就剩一个快字了。最快的unikernel启动只需要20毫秒
 
 
 
-![image.png](https://ucc.alicdn.com/pic/developer-ecology/53d9939e1b9f45b1bb50074530a7d09b.png)
+![](files/2.png)
 
 **1. SaaS，软件即服务**云服务提供商提供给客户直接使用软件服务，如Google Docs、Microsoft CRM、Salesforce.com等。用户不必自己维护软件本身，只管使用软件提供的服务。用户为该软件提供的服务付费。
 
