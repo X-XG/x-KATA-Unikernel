@@ -317,4 +317,30 @@ KVM也继承了Linux的性能和可伸缩性。KVM在CPU、内存、网络、磁
 
 [rust-vmm 开源项目](https://github.com/rust-vmm)
 
+[1]舒红梅,谭良.Unikernel的研究及其进展[J].计算机应用研究,2019,36(06):1601-1608.
 
+[2]Pierre Olivier et al. A binary-compatible unikernel[C]. , 2019.
+
+[3]Christine Hall. Kata Project Seeks to Improve Security with Virtualized Containers[J]. SQL Server Pro, 2018, 
+
+[4]OpenStack Foundation; Kata Containers Project Launches to Build Secure Container Infrastructure[J]. Computer Weekly News, 2017,  : 165-.
+
+[5]Serdar Yegulalp. What’s new in Kubernetes 1.20[J]. InfoWorld.com, 2020, 
+
+[6]孔祥文,宋辰萱.基于Kubernetes的私有容器平台研究[J].电子技术与软件工程,2020(17):185-187.
+
+[7]R. Kumar and B. Thangaraju, "Performance Analysis Between RunC and Kata Container Runtime," 2020 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT), Bangalore, India, 2020, pp. 1-4, doi: 10.1109/CONECCT50063.2020.9198653.
+
+[8]W. Viktorsson, C. Klein and J. Tordsson, "Security-Performance Trade-offs of Kubernetes Container Runtimes," 2020 28th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS), Nice, France, 2020, pp. 1-4, doi: 10.1109/MASCOTS50786.2020.9285946.
+
+[9]J. Talbot et al., "A Security Perspective on Unikernels," 2020 International Conference on Cyber Security and Protection of Digital Services (Cyber Security), Dublin, Ireland, 2020, pp. 1-7, doi: 10.1109/CyberSecurity49315.2020.9138883.
+
+[10]T. Goethals, M. Sebrechts, A. Atrey, B. Volckaert and F. De Turck, "Unikernels vs Containers: An In-Depth Benchmarking Study in the Context of Microservice Applications," 2018 IEEE 8th International Symposium on Cloud and Service Computing (SC2), Paris, France, 2018, pp. 1-8, doi: 10.1109/SC2.2018.00008.
+
+[11]M. Yang and M. Huang, "An Microservices-Based Openstack Monitoring Tool," 2019 IEEE 10th International Conference on Software Engineering and Service Science (ICSESS), Beijing, China, 2019, pp. 706-709, doi: 10.1109/ICSESS47205.2019.9040740.
+
+[12]D. Bernstein, "Containers and Cloud: From LXC to Docker to Kubernetes," in IEEE Cloud Computing, vol. 1, no. 3, pp. 81-84, Sept. 2014, doi: 10.1109/MCC.2014.51.
+
+[13]V. Suryanarayana, K. Mylar Balasubramanya and R. Pendse, "Cache isolation and thin provisioning of hypervisor caches," 37th Annual IEEE Conference on Local Computer Networks, Clearwater Beach, FL, USA, 2012, pp. 240-243, doi: 10.1109/LCN.2012.6423618.
+
+[14]E. Kim, K. Lee and C. Yoo, "On the Resource Management of Kubernetes," 2021 International Conference on Information Networking (ICOIN), Jeju Island, Korea (South), 2021, pp. 154-158, doi: 10.1109/ICOIN50884.2021.9333977.
